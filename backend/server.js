@@ -17,6 +17,6 @@ app.get("/api/matches", (req, res) => {
   res.json(matches);
 });
 
-app.listen(3000, () => {
+app.listen(3001, () => {
   console.log("Server is running on port 3000");
 });
