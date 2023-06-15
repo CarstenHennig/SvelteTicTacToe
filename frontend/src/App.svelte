@@ -96,9 +96,9 @@
 
 <main class="dashboard">
   <div class="header">
-    <!-- <div class="image">
+    <div class="image">
       <img src="./gp-joule.png" alt="GP Joule" />
-    </div> -->
+    </div>
     <h1>Let's play TicTacToe 2gether</h1>
   </div>
   <div class="gamegrid">
@@ -120,7 +120,7 @@
 
     <!-- <button on:click={saveMatchResult}>Save Match Result</button> -->
 
-    <h2>Latest Match Results:</h2>
+    <h2>Latest 5 Match Results:</h2>
     {#each $matchResults as result, index}
       <p key={index}>{result.result} - {result.winner}</p>
     {/each}
